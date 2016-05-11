@@ -1,0 +1,39 @@
+body, html {
+	height: 100%
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(28, 108, 134);
+	color: white;
+	font-size: 2em;
+	text-transform: capitalize;
+	text-align: center
+}
+
+img {
+	height: 50%
+}
+
+.data {
+	width: 90%
+
+}
+.data > * {
+	display: inline-block;
+	width: 25%
+}
+
+h1 {
+	font-size: 3em
+}
+
+#unit {
+	border: none;
+	margin: 0 0.1em;
+	color: rgb(247, 217, 28);
+	background-color: inherit
+}
